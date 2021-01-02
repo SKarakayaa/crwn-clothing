@@ -1,7 +1,10 @@
 import "./App.css";
 
 import { Redirect, Route, Switch } from "react-router-dom";
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
+import {
+  auth,
+  createUserProfileDocument,
+} from "./firebase/firebase.utils";
 
 import CheckoutPage from "./pages/checkout/checkout.component";
 import Header from "./components/header/header.component";
